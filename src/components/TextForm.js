@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 export default function TextForm(props) {
 
-    const handleclear = () => {
+    const handleClear = () => {
         settext('')
         props.makeAlert ('Text Cleared','success')
     }
@@ -34,7 +34,7 @@ export default function TextForm(props) {
                     <textarea className="form-control border boder-1 boder-white my-2 ms-3 mt-2" value={text}  onChange={handleOnChnage} style={{backgroundColor : props.mode==='white'?'rgb(9 18 30)':'white', color : props.mode === 'white' ? 'rgb(9 18 30)' : 'light'}} id="myBox" rows="8"></textarea>
                     <button className="btn btn-primary my-3 ms-3" onClick={handleUpClick}>TO UPPERCASE</button>
                     <button className="btn btn-primary my-3 ms-3" onClick={handlelpClick}>TO LOWERCASE</button>
-                    <button className="btn btn-primary my-3 ms-3" onClick={handleclear}>TO CLEAR</button>
+                    <button className="btn btn-primary my-3 ms-3" onClick={handleClear}>TO CLEAR</button>
                     <button className="btn btn-primary my-3 ms-3" onClick={handleExtraSpace}>EXTRA SPACE REMOVER</button>
                 </div>
             </div>
