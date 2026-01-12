@@ -17,8 +17,6 @@ export default function Navbar(props) {
 
         <>
             <nav className={`navbar navbar-expand-lg border boder-2 border-white navbar-${props.mode} bg-${props.mode}`} >
-                <Link></Link>
-
                 <div className="container-fluid">
                     {/* <Link className="navbar-brand" to="/TextForm">
                         {props.title}
