@@ -37,10 +37,10 @@ export default function Navbar(props) {
                                 </Link>
                             </li>
                         </ul>
-                        <form className="d-flex" role="search">
-                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        {/* <form   className="d-flex" role="search">
+                            <input  className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                             <button className="btn btn-outline-primary me-2" type="submit">Search</button>
-                        </form>
+                        </form> */}
                         <div className="dropdown">
                             <button className="btn btn-primary dropdown-toggle  me-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Select change
